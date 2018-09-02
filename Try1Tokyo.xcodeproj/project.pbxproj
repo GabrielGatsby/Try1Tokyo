@@ -12,6 +12,16 @@
 		6501B97B213BD60F00DB60A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6501B979213BD60F00DB60A6 /* Main.storyboard */; };
 		6501B97D213BD60F00DB60A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6501B97C213BD60F00DB60A6 /* Assets.xcassets */; };
 		6501B980213BD60F00DB60A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6501B97E213BD60F00DB60A6 /* LaunchScreen.storyboard */; };
+		6501B994213BDC9900DB60A6 /* ScheduleDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6501B98A213BDC9900DB60A6 /* ScheduleDAO.swift */; };
+		6501B995213BDC9900DB60A6 /* EventsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6501B98B213BDC9900DB60A6 /* EventsDAO.swift */; };
+		6501B996213BDC9900DB60A6 /* BaseDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6501B98C213BDC9900DB60A6 /* BaseDAO.swift */; };
+		6501B997213BDC9900DB60A6 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6501B98E213BDC9900DB60A6 /* Schedule.swift */; };
+		6501B998213BDC9900DB60A6 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6501B98F213BDC9900DB60A6 /* Events.swift */; };
+		6501B999213BDC9900DB60A6 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6501B991213BDC9900DB60A6 /* Property List.plist */; };
+		6501B99A213BDC9900DB60A6 /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6501B992213BDC9900DB60A6 /* DBConfig.plist */; };
+		6501B99B213BDC9900DB60A6 /* create_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = 6501B993213BDC9900DB60A6 /* create_load.sql */; };
+		6501B99E213BFBB200DB60A6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6501B99D213BFBB200DB60A6 /* libsqlite3.0.tbd */; };
+		6501B9A0213BFD4A00DB60A6 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6501B99F213BFD4A00DB60A6 /* DBHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,17 @@
 		6501B97C213BD60F00DB60A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6501B97F213BD60F00DB60A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6501B981213BD60F00DB60A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6501B988213BDC9900DB60A6 /* TokyoOlympics-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TokyoOlympics-Bridging-Header.h"; sourceTree = "<group>"; };
+		6501B98A213BDC9900DB60A6 /* ScheduleDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleDAO.swift; sourceTree = "<group>"; };
+		6501B98B213BDC9900DB60A6 /* EventsDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsDAO.swift; sourceTree = "<group>"; };
+		6501B98C213BDC9900DB60A6 /* BaseDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDAO.swift; sourceTree = "<group>"; };
+		6501B98E213BDC9900DB60A6 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		6501B98F213BDC9900DB60A6 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		6501B991213BDC9900DB60A6 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		6501B992213BDC9900DB60A6 /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
+		6501B993213BDC9900DB60A6 /* create_load.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_load.sql; sourceTree = "<group>"; };
+		6501B99D213BFBB200DB60A6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		6501B99F213BFD4A00DB60A6 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6501B99E213BFBB200DB60A6 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +60,11 @@
 		6501B969213BD60F00DB60A6 = {
 			isa = PBXGroup;
 			children = (
+				6501B99F213BFD4A00DB60A6 /* DBHelper.swift */,
+				6501B987213BDC9900DB60A6 /* PersistenceLayer */,
 				6501B974213BD60F00DB60A6 /* Try1Tokyo */,
 				6501B973213BD60F00DB60A6 /* Products */,
+				6501B99C213BFBB200DB60A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +87,54 @@
 				6501B981213BD60F00DB60A6 /* Info.plist */,
 			);
 			path = Try1Tokyo;
+			sourceTree = "<group>";
+		};
+		6501B987213BDC9900DB60A6 /* PersistenceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6501B988213BDC9900DB60A6 /* TokyoOlympics-Bridging-Header.h */,
+				6501B989213BDC9900DB60A6 /* dao */,
+				6501B98D213BDC9900DB60A6 /* domain */,
+				6501B990213BDC9900DB60A6 /* DBFile */,
+			);
+			path = PersistenceLayer;
+			sourceTree = "<group>";
+		};
+		6501B989213BDC9900DB60A6 /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				6501B98A213BDC9900DB60A6 /* ScheduleDAO.swift */,
+				6501B98B213BDC9900DB60A6 /* EventsDAO.swift */,
+				6501B98C213BDC9900DB60A6 /* BaseDAO.swift */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
+		6501B98D213BDC9900DB60A6 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				6501B98E213BDC9900DB60A6 /* Schedule.swift */,
+				6501B98F213BDC9900DB60A6 /* Events.swift */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		6501B990213BDC9900DB60A6 /* DBFile */ = {
+			isa = PBXGroup;
+			children = (
+				6501B991213BDC9900DB60A6 /* Property List.plist */,
+				6501B992213BDC9900DB60A6 /* DBConfig.plist */,
+				6501B993213BDC9900DB60A6 /* create_load.sql */,
+			);
+			path = DBFile;
+			sourceTree = "<group>";
+		};
+		6501B99C213BFBB200DB60A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6501B99D213BFBB200DB60A6 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +195,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6501B99A213BDC9900DB60A6 /* DBConfig.plist in Resources */,
 				6501B980213BD60F00DB60A6 /* LaunchScreen.storyboard in Resources */,
+				6501B99B213BDC9900DB60A6 /* create_load.sql in Resources */,
 				6501B97D213BD60F00DB60A6 /* Assets.xcassets in Resources */,
+				6501B999213BDC9900DB60A6 /* Property List.plist in Resources */,
 				6501B97B213BD60F00DB60A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +211,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6501B997213BDC9900DB60A6 /* Schedule.swift in Sources */,
 				6501B978213BD60F00DB60A6 /* ViewController.swift in Sources */,
 				6501B976213BD60F00DB60A6 /* AppDelegate.swift in Sources */,
+				6501B994213BDC9900DB60A6 /* ScheduleDAO.swift in Sources */,
+				6501B998213BDC9900DB60A6 /* Events.swift in Sources */,
+				6501B995213BDC9900DB60A6 /* EventsDAO.swift in Sources */,
+				6501B996213BDC9900DB60A6 /* BaseDAO.swift in Sources */,
+				6501B9A0213BFD4A00DB60A6 /* DBHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +370,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = a.Try1Tokyo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PersistenceLayer/TokyoOlympics-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +388,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = a.Try1Tokyo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PersistenceLayer/TokyoOlympics-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
